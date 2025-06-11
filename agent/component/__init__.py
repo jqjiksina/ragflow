@@ -51,6 +51,7 @@ from .email import Email, EmailParam
 from .iteration import Iteration, IterationParam
 from .iterationitem import IterationItem, IterationItemParam
 from .code import Code, CodeParam
+from .ocr import TestCpnParam,TestCpn
 
 
 def component_class(class_name):
@@ -60,6 +61,8 @@ def component_class(class_name):
 
 
 __all__ = [
+    "TestCpnParam",
+    "TestCpn",
     "Begin",
     "BeginParam",
     "Generate",

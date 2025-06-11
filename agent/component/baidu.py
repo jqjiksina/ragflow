@@ -76,4 +76,3 @@ class Baidu(ComponentBase, ABC):
         df = pd.DataFrame(baidu_res)
         logging.debug(f"df: {str(df)}")
         return df
-
